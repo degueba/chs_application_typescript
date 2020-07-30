@@ -1,0 +1,1 @@
+# chs_application_typescript
