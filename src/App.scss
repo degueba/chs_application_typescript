@@ -1,0 +1,90 @@
+// Styles
+@import 'styles/config';
+@import 'styles/buttons';
+@import 'styles/inputs';
+@import 'styles/mixins';
+
+
+// Configs 
+$height-top: 70;
+$height-footer: 70;
+
+
+body, * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+    &.active {
+        @include sm {
+            overflow-y: hidden;
+        }
+    }
+}
+
+.h2, .h3, .nav-link, .small-caps {
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: 600;
+}
+
+.h1, .paragraph, h2, h4, p {
+    font-family: 'Source Sans Pro',sans-serif;
+    color: #021e34;
+}
+
+.label {
+    color: #4b5c6b;
+    font-weight: 600;
+}
+
+.container {
+    padding-top: 0;
+    padding-right: 6.5%;
+    padding-left: 6.5%;
+}
+
+.wrapper {
+    width: 1366px;
+    max-width: 1366px;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    @include sm {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 10px;
+    }
+}
+
+
+.visible-xs {
+    display: none;
+    
+    @include sm {
+        display: block;
+    }
+}
+
+.loading {
+    &--main {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: $chs-blue;
+        color: #fff;
+        text-align: center;
+
+        img {
+            margin-bottom: 10px;
+        }
+    }
+}

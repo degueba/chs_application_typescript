@@ -1,0 +1,52 @@
+@import '../../App.scss';
+
+.surveyStatus {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 520px;
+    height: calc(80px - 10px);
+    margin: 0 auto;
+
+    @include sm {
+        display: none;
+    }
+    
+    &__block {
+        width: 130px;
+        flex: 1 1 130px;
+        cursor: pointer;
+        
+        h3 {
+            position: relative;
+            color: $chs-graydisabled;
+            font-weight: normal;
+
+            &:after {
+                content: "";
+                position: absolute;
+                bottom: -13px;
+                left: 0;
+                width: 124px;
+                height: 4px;
+                background-color: $chs-graydisabled;
+            }
+        }
+
+        &--checkout {
+            &.active {
+                cursor: pointer;
+            }
+        }
+
+        &.active, &.filled {
+            h3 {
+                color: #333333;
+
+                &:after {
+                    background-color: $chs-blue;
+                }
+            }
+        }
+    }
+}

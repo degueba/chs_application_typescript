@@ -1,0 +1,29 @@
+.inpt {
+    border: 1px solid $chs-gray;
+    height: 44px;
+    border-radius: 4px;
+    padding-left: 5px;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Source Sans Pro";
+    color: $chs-black;
+    box-sizing: border-box;
+
+    @include sm {
+        height: 35px;
+    }
+
+    &.error {
+        background-color: #F8E8E5;
+        border-color: $chs-error;
+
+        &:focus {
+            border-color: $chs-error;
+        }
+    }
+
+    &:focus {
+        border-color: $chs-secondary;
+        outline: none;
+    }
+}

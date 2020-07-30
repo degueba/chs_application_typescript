@@ -1,0 +1,539 @@
+[
+    {
+        "Id": "wpln-1",
+        "Text": "Email",
+        "Description": "",
+        "Answer": "",
+        "QuestionType": "OpenQuestion", 
+        "Category": "contact",
+        "Rows": [],
+        "ColumnNames": [],
+        "Attachments": [],
+        "OfficeUse": false,
+        "OfficeNote": null,
+        "QuestionSubType": "Mixed" 
+    },
+    {
+        "Id": "wpln-17",
+        "Text": "Province",
+        "Description": "",
+        "Answer": "",
+        "QuestionType": "SelectChoice",
+        "Category": "contact",
+        "Rows": [],
+        "ColumnNames": [],
+        "Attachments": [],
+        "OfficeUse": false,
+        "OfficeNote": null,
+        "QuestionSubType": "Mixed",
+        "QuestionOptions": [
+            {
+                "Id": 1,
+                "Text": "ON"
+            },
+            {
+                "Id": 2,
+                "Text": "Other"
+            }
+        ]
+    },
+    {
+        "Id": "wpln-16",
+        "Text": "Birthday",
+        "Description": "",
+        "Answer": "",
+        "QuestionType": "OpenQuestion",
+        "Category": "contact",
+        "Rows": [],
+        "ColumnNames": [],
+        "Attachments": [],
+        "OfficeUse": false,
+        "OfficeNote": null,
+        "QuestionSubType": "Mixed"
+    },
+    {
+        "Id": "rv4u-1",
+        "Text": "Do you have any of the following medical conditions?",
+        "Description": "Please, select all that apply.",
+        "Answer": "",
+        "QuestionType": "MultipleChoice",
+        "Category": "health",
+        "MedicalCategory": "medical_conditions",
+        "Rows": [],
+        "ColumnNames": [],
+        "Attachments": [],
+        "OfficeUse": false,
+        "OfficeNote": null,
+        "QuestionSubType": "MultipleChoiceMultipleSelection",
+        "QuestionOptions": [
+            {
+                "Id": 1,
+                "Text": "Diabetes",
+                "checked": false
+            },
+            {
+                "Id": 2,
+                "Text": "High blood pressure",
+                "checked": false
+            },
+            {
+                "Id": 3,
+                "Text": "Heart disease",
+                "checked": false
+            },
+            {
+                "Id": 4,
+                "Text": "Thyroid condition",
+                "checked": false
+            },
+            {
+                "Id": 5,
+                "Text": "Peripheral artery disease",
+                "checked": false
+            },
+            {
+                "Id": 6,
+                "Text": "Depression or Anxiety",
+                "checked": false
+            },
+            {
+                "Id": 7,
+                "Text": "Stroke or blood clots",
+                "checked": false
+            },
+            {
+                "Id": 8,
+                "Text": "HIV or AIDS",
+                "checked": false
+            },
+            {
+                "Id": 9,
+                "Text": "Enlarged Prostate/BPH",
+                "checked": false
+            },
+            {
+                "Id": 10,
+                "Text": "Irregular heart beat",
+                "checked": false
+            },
+            {
+                "Id": 11,
+                "Text": "Cancer",
+                "checked": false
+            },
+            {
+                "Id": 12,
+                "Text": "None of the above",
+                "checked": false
+            }
+        ],
+        "Other": true
+    },
+    {
+        "Id": "zcal-1",
+        "Text": "Are you taking medication for any of the following conditions?",
+        "Description": "Please, select all that apply.",
+        "Answer": "",
+        "QuestionType": "MultipleChoice",
+        "Category": "health",
+        "MedicalCategory": "medical_conditions",
+        "Rows": [],
+        "ColumnNames": [],
+        "Attachments": [],
+        "OfficeUse": false,
+        "OfficeNote": null,
+        "QuestionSubType": "MultipleChoiceMultipleSelection",
+        "QuestionOptions": [
+            {
+                "Id": 1,
+                "Text": "Diabetes",
+                "checked": false
+            },
+            {
+                "Id": 2,
+                "Text": "High blood pressure",
+                "checked": false
+            },
+            {
+                "Id": 3,
+                "Text": "Other",
+                "checked": false
+            },
+            {
+                "Id": 4,
+                "Text": "I'm not taking any medication",
+                "checked": false
+            }
+        ]
+    },
+    {
+        "Id": "u829-1",
+        "Text": "Please list out all the names of all medications (prescription or over the counter) that you are currently taking:",
+        "Description": "",
+        "Answer": "",
+        "QuestionType": "OpenQuestion",
+        "Category": "health",
+        "MedicalCategory": "medications",
+        "Rows": [],
+        "ColumnNames": [],
+        "Attachments": [],
+        "OfficeUse": false,
+        "OfficeNote": null,
+        "QuestionSubType": "ShortAnswer"
+    },
+    {
+        "Id": "b5cj-1",
+        "Text": "Do you have any medical allergies?",
+        "Description": "Please, select all that apply.",
+        "Answer": "",
+        "QuestionType": "MultipleChoice",
+        "Category": "health",
+        "MedicalCategory": "allergies",
+        "Rows": [],
+        "ColumnNames": [],
+        "Attachments": [],
+        "OfficeUse": false,
+        "OfficeNote": null,
+        "QuestionSubType": "MultipleChoiceMultipleSelection",
+        "QuestionOptions": [
+            {
+                "Id": 1,
+                "Text": "Antibiotics (Penicillin/Amoxicillin)",
+                "checked": false
+            },
+            {
+                "Id": 2,
+                "Text": "Codeine",
+                "checked": false
+            },
+            {
+                "Id": 3,
+                "Text": "Latex",
+                "checked": false
+            },
+            {
+                "Id": 4,
+                "Text": "Aspirin",
+                "checked": false
+            },
+            {
+                "Id": 5,
+                "Text": "None",
+                "checked": false
+            }
+        ]
+    },
+    {
+        "Id": "rl28-1",
+        "Text": "Describe your issue(s) with sexual functioning:",
+        "Description": "Please, select all that apply.",
+        "Answer": "",
+        "QuestionType": "MultipleChoice",
+        "Category": "health",
+        "Rows": [],
+        "ColumnNames": [],
+        "Attachments": [],
+        "OfficeUse": false,
+        "OfficeNote": null,
+        "QuestionSubType": "MultipleChoiceMultipleSelection",
+        "QuestionOptions": [
+            {
+                "Id": 1,
+                "Text": "Difficulty forming an erection",
+                "checked": false
+            },
+            {
+                "Id": 2,
+                "Text": "Ejaculating too early",
+                "checked": false
+            },
+            {
+                "Id": 3,
+                "Text": "Difficulty maintaining an erection",
+                "checked": false
+            },
+            {
+                "Id": 4,
+                "Text": "Low sex drive, or libido",
+                "checked": false
+            },
+            {
+                "Id": 5,
+                "Text": "None of the above",
+                "checked": false
+            }
+        ],
+        "Other": true
+    },
+    {
+        "Id": "z8qf-1",
+        "Text": "When was the last time you had a morning erection?",
+        "Description": "Please, select all that apply.",
+        "Answer": "",
+        "QuestionType": "MultipleChoice",
+        "Category": "health",
+        "Rows": [],
+        "ColumnNames": [],
+        "Attachments": [],
+        "OfficeUse": false,
+        "OfficeNote": null,
+        "QuestionSubType": "MultipleChoiceSingleSelection",
+        "QuestionOptions": [
+            {
+                "Id": 1,
+                "Text": "<3 months ago",
+                "checked": false
+            },
+            {
+                "Id": 2,
+                "Text": "3-6 months ago",
+                "checked": false
+            },
+            {
+                "Id": 3,
+                "Text": "> 6 months ago",
+                "checked": false
+            },
+            {
+                "Id": 3,
+                "Text": "Never",
+                "checked": false
+            }
+        ]
+    },
+    {
+        "Id": "hw8v-1",
+        "Text": "When was the last time you experienced normal sexual functioning?",
+        "Description": "Please, select all that apply.",
+        "Answer": "",
+        "QuestionType": "MultipleChoice",
+        "Category": "health",
+        "Rows": [],
+        "ColumnNames": [],
+        "Attachments": [],
+        "OfficeUse": false,
+        "OfficeNote": null,
+        "QuestionSubType": "MultipleChoiceSingleSelection",
+        "QuestionOptions": [
+            {
+                "Id": 1,
+                "Text": "<3 months ago",
+                "checked": false
+            },
+            {
+                "Id": 2,
+                "Text": "3-6 months ago",
+                "checked": false
+            },
+            {
+                "Id": 3,
+                "Text": "> 6 months ago",
+                "checked": false
+            },
+            {
+                "Id": 3,
+                "Text": "Never",
+                "checked": false
+            }
+        ]
+    },
+    {
+        "Id": "bror-1",
+        "Text": "How often is your erection sufficient to have satisfactory intercourse?",
+        "Description": "Please, select all that apply.",
+        "Answer": "",
+        "QuestionType": "MultipleChoice",
+        "Category": "health",
+        "Rows": [],
+        "ColumnNames": [],
+        "Attachments": [],
+        "OfficeUse": false,
+        "OfficeNote": null,
+        "QuestionSubType": "MultipleChoiceSingleSelection",
+        "QuestionOptions": [
+            {
+                "Id": 1,
+                "Text": "Almost always",
+                "checked": false
+            },
+            {
+                "Id": 2,
+                "Text": "Usually",
+                "checked": false
+            },
+            {
+                "Id": 3,
+                "Text": "Sometimes",
+                "checked": false
+            },
+            {
+                "Id": 3,
+                "Text": "Rarely",
+                "checked": false
+            },
+            {
+                "Id": 4,
+                "Text": "Never",
+                "checked": false
+            }
+        ]
+    },
+    {
+        "Id": "5v09-1",
+        "Text": "Do you have any other concerns with your sex life?",
+        "Description": "",
+        "Answer": "",
+        "QuestionType": "MultipleChoice",
+        "Category": "health",
+        "Rows": [],
+        "ColumnNames": [],
+        "Attachments": [],
+        "OfficeUse": false,
+        "OfficeNote": null,
+        "QuestionSubType": "MultipleChoiceSingleSelection",
+        "QuestionOptions": [
+            {
+                "Id": 1,
+                "Text": "Yes",
+                "checked": false
+            },
+            {
+                "Id": 2,
+                "Text": "No",
+                "checked": false
+            }
+        ]
+    },
+    {
+        "Id": "9rzz-1",
+        "Text": "What other concerns do you have?",
+        "Description": "Please list out any other concerns you may have.",
+        "Answer": "",
+        "QuestionType": "OpenQuestion",
+        "Category": "health",
+        "Rows": [],
+        "ColumnNames": [],
+        "Attachments": [],
+        "OfficeUse": false,
+        "OfficeNote": null,
+        "QuestionSubType": "ShortAnswer"
+    },
+    {
+        "Id": "p35x-1",
+        "Text": "Do you smoke currently?",
+        "Description": "",
+        "Answer": "",
+        "QuestionType": "MultipleChoice",
+        "Category": "health",
+        "Rows": [],
+        "ColumnNames": [],
+        "Attachments": [],
+        "OfficeUse": false,
+        "OfficeNote": null,
+        "QuestionSubType": "MultipleChoiceSingleSelection",
+        "QuestionOptions": [
+            {
+                "Id": 1,
+                "Text": "Yes",
+                "checked": false
+            },
+            {
+                "Id": 2,
+                "Text": "No",
+                "checked": false
+            }
+        ]
+    },
+    {
+        "Id": "lzlc-1",
+        "Text": "How often do you have a drink containing alcohol?",
+        "Description": "Please, select all that apply.",
+        "Answer": "",
+        "QuestionType": "MultipleChoice",
+        "Category": "health",
+        "Rows": [],
+        "ColumnNames": [],
+        "Attachments": [],
+        "OfficeUse": false,
+        "OfficeNote": null,
+        "QuestionSubType": "MultipleChoiceSingleSelection",
+        "QuestionOptions": [
+            {
+                "Id": 1,
+                "Text": "Every day",
+                "checked": false
+            },
+            {
+                "Id": 2,
+                "Text": "4-6 times a week",
+                "checked": false
+            },
+            {
+                "Id": 3,
+                "Text": "2-3 times a week",
+                "checked": false
+            },
+            {
+                "Id": 4,
+                "Text": "2-4 times a month",
+                "checked": false
+            },
+            {
+                "Id": 5,
+                "Text": "Monthly or less",
+                "checked": false
+            },
+            {
+                "Id": 6,
+                "Text": "Never",
+                "checked": false
+            }
+        ]
+    },
+    {
+        "Id": "gsdk-1",
+        "Text": "Do you use marijuana?",
+        "Description": "Please, select all that apply.",
+        "Answer": "",
+        "QuestionType": "MultipleChoice",
+        "Category": "health",
+        "Rows": [],
+        "ColumnNames": [],
+        "Attachments": [],
+        "OfficeUse": false,
+        "OfficeNote": null,
+        "QuestionSubType": "MultipleChoiceSingleSelection",
+        "QuestionOptions": [
+            {
+                "Id": 1,
+                "Text": "Almost every day",
+                "checked": false
+            },
+            {
+                "Id": 2,
+                "Text": "Frequently",
+                "checked": false
+            },
+            {
+                "Id": 3,
+                "Text": "Sometimes",
+                "checked": false
+            },
+            {
+                "Id": 4,
+                "Text": "Rarely",
+                "checked": false
+            },
+            {
+                "Id": 5,
+                "Text": "In the past",
+                "checked": false
+            },
+            {
+                "Id": 6,
+                "Text": "Never",
+                "checked": false
+            }
+        ]
+    }
+]
